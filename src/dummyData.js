@@ -12,42 +12,42 @@ export const Users = [
     {
         id: 3,
         ProfilePicture:"assets/person/3.jpg",
-        username: "Nur Ahamed"
+        username: "Bikash"
     },
     {
         id: 4,
-        ProfilePicture:"assets/person/3.jpg",
-        username: "Nur Ahamed"
+        ProfilePicture:"assets/person/4.jpg",
+        username: "Ram"
     },
     {
         id: 5,
-        ProfilePicture:"assets/person/4.jpg",
-        username: "Nur Ahamed"
+        ProfilePicture:"assets/person/5.jpg",
+        username: "Sham"
     },
     {
         id: 6,
-        ProfilePicture:" assets/person/5.jpg",
-        username: "Nur Ahamed"
+        ProfilePicture:" assets/person/6.jpg",
+        username: "Jadu"
     },
     {
         id: 7,
-        ProfilePicture:"assets/person/6.jpg",
-        username: "Nur Ahamed"
-    },
-    {
-        id: 8,
         ProfilePicture:"assets/person/7.jpg",
-        username: "Nur Ahamed"
+        username: "Modhu"
     },
     {
         id: 8,
         ProfilePicture:"assets/person/8.jpg",
-        username: "Nur Ahamed"
+        username: "Post Man"
+    },
+    {
+        id: 9,
+        ProfilePicture:"assets/person/9.jpg",
+        username: "Toori"
     },
     {
         id: 10,
-        ProfilePicture:"assets/person/9.jpg",
-        username: "Nur Ahamed"
+        ProfilePicture:"assets/person/10.jpg",
+        username: "Mark"
     }
 ]
 
@@ -57,43 +57,43 @@ export const Posts =[
         desc: "Love For All, Heaters For None",
         photo: "assets/posts/1.jpg",
         date: "5 mins ago",
-        userId: "1",
+        userId: 1,
         like: "32",
         comment: "9"
     },
     {
         id: 2, 
-        desc: "Love For All, Heaters For None",
+        desc: "Hello Guys",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
-        like: "32",
-        comment: "9"
+        date: "10 mins ago",
+        userId: 2,
+        like: "300",
+        comment: "44"
     },
     {
         id: 3, 
-        desc: "Love For All, Heaters For None",
+        desc: "Hey",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
-        like: "32",
-        comment: "9"
+        date: "20 mins ago",
+        userId: 3,
+        like: "50",
+        comment: "20"
     },
     {
         id: 4, 
         desc: "Love For All, Heaters For None",
         photo: "assets/posts/1.jpg",
         date: "5 mins ago",
-        userId: "1",
+        userId: 4,
         like: "32",
-        comment: "9"
+        comment: "99"
     },
     {
         id: 5, 
         desc: "Love For All, Heaters For None",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
+        date: "30 mins ago",
+        userId: 5,
         like: "32",
         comment: "9"
     },
@@ -101,45 +101,45 @@ export const Posts =[
         id: 6, 
         desc: "Love For All, Heaters For None",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
+        date: "33 mins ago",
+        userId: 6,
         like: "32",
         comment: "9"
     },
     {
         id: 7, 
-        desc: "Love For All, Heaters For None",
+        desc: "Just Chill",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
+        date: "35 mins ago",
+        userId: 7,
         like: "32",
-        comment: "9"
+        comment: "55"
     },
     {
         id: 8, 
-        desc: "Love For All, Heaters For None",
+        desc: "How are you guys",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
-        like: "32",
-        comment: "9"
+        date: "38 mins ago",
+        userId: 8,
+        like: "60",
+        comment: "16"
     },
     {
         id: 9, 
-        desc: "Love For All, Heaters For None",
+        desc: "Today is very Hot",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
-        like: "32",
-        comment: "9"
+        date: "40 mins ago",
+        userId: 9,
+        like: "62",
+        comment: "90"
     },
     {
         id: 10, 
-        desc: "Love For All, Heaters For None",
+        desc: "Love For All, ",
         photo: "assets/posts/1.jpg",
-        date: "5 mins ago",
-        userId: "1",
-        like: "32",
-        comment: "9"
+        date: "42 mins ago",
+        userId: 10,
+        like: "39",
+        comment: "50"
     }
 ]
