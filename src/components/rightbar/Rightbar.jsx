@@ -9,7 +9,7 @@ export default function Rightbar({profile}) {
       <>
       <div className="birthdayContainer">
           <img src="/assets/gift.jpg" alt="" className="birthdayImg" />
-          <span className="birthdayText"> <b> Pola Foster</b>and <b>3 other friends</b> have birthday</span>
+          <span className="birthdayText"> <b> Pola Foster</b> and <b>3 other friends</b> have birthday</span>
         </div>
         <img src="assets/ad.jpg" alt="" className="rightbarAd" />
         <h4 className="rightbarTitle">Online Friend</h4>
@@ -77,7 +77,7 @@ export default function Rightbar({profile}) {
     <div className='rightbar'>
       <div className="rightbarWrapper">
 
-        <ProfileRightbar/>
+       { profile ? <ProfileRightbar/> : <HomeRightbar/>}
         {/* <div className="birthdayContainer">
           <img src="/assets/gift.jpg" alt="" className="birthdayImg" />
           <span className="birthdayText"> <b> Pola Foster</b>and <b>3 other friends</b> have birthday</span>

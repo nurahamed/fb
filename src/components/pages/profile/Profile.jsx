@@ -8,11 +8,11 @@ import '../../rightbar/Rightbar.css'
 import Topbar from '../../topbar/Topbar'
 import Sidebar from '../../sidebar/Sidebar'
 import Feed from '../home/feed/Feed'
-import Rightbar from '../../rightbar/Rightbar'
+import Rightbar from '../../rightbar/Rightbar' 
 
 
 export default function Profile() {
-    return (
+    return ( 
         <>
             <Topbar />
             <div className="profile">
@@ -25,7 +25,7 @@ export default function Profile() {
                         <img src="assets/person/5.jpg" alt="" className="profileUserImg" />
                         </div>
                         <div className="profileInfo">
-                            <h4 className='profileInfoName'>Nur Ahamed</h4>
+                            <h4 className='profileInfoName'>Anjani</h4>
                             <span className='profileInfoDesc'>Helo my friends</span>
                         </div>
                         </div>
